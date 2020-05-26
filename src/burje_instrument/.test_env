@@ -1,0 +1,1 @@
+BURJE_TRANSPORT_POSTGRESQL_CONN_STRING=pguser:pg_pass@localhost:5432/measurements

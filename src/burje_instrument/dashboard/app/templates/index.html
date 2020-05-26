@@ -1,0 +1,13 @@
+<html>
+    <script src="{{url_for('static', filename='js/site_wide.js')}}"></script>
+    <body>
+        <p>
+            Musaka
+
+
+            {% for k,v in extra.items() %}
+        <li>{{k}} = {{v}}</li>
+            {%endfor%}
+        </p>
+    </body>
+</html>
